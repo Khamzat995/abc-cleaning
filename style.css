@@ -797,8 +797,16 @@ a {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   text-align: center;
+
   background: #15abad;
   color: white;
+}
+
+.contact .icons-container .icons .social-png {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 160px;
 }
 
 /* анимация */
@@ -903,7 +911,7 @@ a {
 
 /* анимация -2 конец*/
 
-.contact .icons-container .icons img {
+.contact .icons-container .icons .social-png img {
   max-width: 20px;
 }
 
@@ -2018,7 +2026,12 @@ body.modal-active {
   section {
     padding: 2rem;
   }
+
+  .contact .icons-container .icons .social-png {
+    width: 160px;
+  }
 }
+
 
 @media (max-width:768px) {
 
@@ -2055,6 +2068,10 @@ body.modal-active {
     margin: 1.5rem 0;
     background: #222;
   }
+
+  .contact .icons-container .icons .social-png {
+    width: 150px;
+  }
 }
 
 @media (max-width:450px) {
@@ -2077,6 +2094,9 @@ body.modal-active {
     height: 420px;
   }
 
+  .contact .icons-container .icons .social-png {
+    width: 140px;
+  }
 }
 
 @media (max-width:380px) {
@@ -2093,6 +2113,10 @@ body.modal-active {
 
   .gallery .container-price .card {
     height: 400px;
+  }
+
+  .heading span {
+    font-size: 2rem;
   }
 }
 
