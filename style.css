@@ -135,84 +135,26 @@ section {
   margin-top: 5px;
 }
 
-.header .langr img {
-  width: 30px;
-  height: 25px;
-  border-radius: 10%;
-}
-
 /* языки */
 #theme-toggler-ru {
   position: fixed;
   top: 1.5rem;
-  border-radius: 50%;
-  /* margin-right: 30px;
-  z-index: 1000;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  border-radius: 50%;
-  font-size: 2rem;
-  cursor: pointer;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  color: var(--black);
-  background: var(--bg-color);*/
   padding-top: 7px;
 }
-
-/* #theme-toggler-ru:hover {
-  color: var(--blue);
-  box-shadow: var(--box-shadow-inset);
-} */
 
 #theme-toggler-tr {
   position: fixed;
   top: 1.5rem;
-  border-radius: 50%;
-  /* margin-right: 6px;
-  z-index: 1000;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  border-radius: 50%;
-  font-size: 2rem;
-  cursor: pointer;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  color: var(--black);
-  background: var(--bg-color);*/
   padding-top: 7px;
 }
 
-/* #theme-toggler-tr:hover {
-  color: var(--blue);
-  box-shadow: var(--box-shadow-inset);
-} */
 
 #theme-toggler-gb {
   position: fixed;
   top: 1.5rem;
-  border-radius: 50%;
-  /* margin-right: 16px;
-  z-index: 1000;
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  
-  font-size: 2rem;
-  cursor: pointer;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  color: var(--black);
-  background: var(--bg-color);*/
   padding-top: 7px;
 }
 
-/* #theme-toggler-gb:hover {
-  color: var(--blue);
-  box-shadow: var(--box-shadow-inset);
-} */
 
 
 .home {
